@@ -1,0 +1,7 @@
+C:\Users\WeCanCodeIT\source\repos\EyeBeach\EyeBeach\bin\Debug\EyeBeach.exe.config
+C:\Users\WeCanCodeIT\source\repos\EyeBeach\EyeBeach\bin\Debug\EyeBeach.exe
+C:\Users\WeCanCodeIT\source\repos\EyeBeach\EyeBeach\bin\Debug\EyeBeach.pdb
+C:\Users\WeCanCodeIT\source\repos\EyeBeach\EyeBeach\obj\Debug\EyeBeach.csprojResolveAssemblyReference.cache
+C:\Users\WeCanCodeIT\source\repos\EyeBeach\EyeBeach\obj\Debug\EyeBeach.csproj.CoreCompileInputs.cache
+C:\Users\WeCanCodeIT\source\repos\EyeBeach\EyeBeach\obj\Debug\EyeBeach.exe
+C:\Users\WeCanCodeIT\source\repos\EyeBeach\EyeBeach\obj\Debug\EyeBeach.pdb
