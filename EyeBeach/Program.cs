@@ -10,9 +10,9 @@ namespace EyeBeach
     {
         static void Main(string[] args)
         {
-            Vacation vacation1 = new Vacation("hazel");
+            Vacation vacation1 = new Vacation("BLUE");
 
-            vacation1.Beaches();
+            vacation1.EyeToNumber();
         }
     }
 }

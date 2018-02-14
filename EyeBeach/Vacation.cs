@@ -22,38 +22,20 @@ namespace EyeBeach
         
         public Vacation(string eyeColor)
         {
-            EyeColor = eyeColor;
+            this.EyeColor = eyeColor;
         }
 
         //Methods
-        public override int EyeNumber()
+        public override int EyeToNumber()
         {
-
-            if (EyeColor == "HAZEL")
-            {
-                return 1;
-            }
-            if (EyeColor == "BROWN")
-            {
-                return 2;
-            }
-            if (EyeColor == "BLUE")
-            {
-                return 3;
-            }
-            if (EyeColor == "GREEN")
-            {
-                return 4;
-            }
-            else
-            {
-                return 5;
-            }
+            int eyeNumber = base.EyeToNumber();  //base means run all code in method
+            Beaches(eyeNumber);
+            return base.EyeToNumber();
         }
 
-        public void Beaches()
+        public static void Beaches(int eyeNumber)
         {
-         switch (EyeNumber())
+         switch (eyeNumber)
             {
                 case 1:
                     Console.WriteLine("Waikiki");
