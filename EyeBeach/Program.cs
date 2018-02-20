@@ -10,9 +10,15 @@ namespace EyeBeach
     {
         static void Main(string[] args)
         {
-            Vacation vacation1 = new Vacation("BLUE");
+            Console.WriteLine("What color are your eyes?");
+            Vacation vacation1 = new Vacation(Console.ReadLine());
+
+            Console.WriteLine("What is your shoe size?");
+            Hotel hotel1 = new Hotel(double.Parse(Console.ReadLine()));
 
             vacation1.EyeToNumber();
+            hotel1.Hotels();
+
         }
     }
 }

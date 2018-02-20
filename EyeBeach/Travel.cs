@@ -11,10 +11,12 @@ namespace EyeBeach
         //fields
         private string eyeColor;
         private int eyeNumber;
+       
 
         //Properties
         public string EyeColor { get; set; }
         public int EyeNumber { get; set; }
+       
         
 
         //Constructors
@@ -48,6 +50,7 @@ namespace EyeBeach
                 return eyeNumber = 5;
             }
         }
+       
 
     }
 }

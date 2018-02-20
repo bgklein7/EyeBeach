@@ -12,7 +12,7 @@ namespace EyeBeach
         //invisible
 
         //Properties
-        //inherited only
+        public double ShoeSize { get; set; }
 
         //Constructors
         public Vacation()
@@ -28,7 +28,7 @@ namespace EyeBeach
         //Methods
         public override int EyeToNumber()
         {
-            int eyeNumber = base.EyeToNumber();  //base means run all code in method
+            int eyeNumber = base.EyeToNumber();  //base means run all code in base method but can make changes in override method without rewriting.
             Beaches(eyeNumber);
             return base.EyeToNumber();
         }
