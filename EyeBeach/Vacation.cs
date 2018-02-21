@@ -12,7 +12,8 @@ namespace EyeBeach
         //invisible
 
         //Properties
-        public double ShoeSize { get; set; }
+
+        public string Beach { get; set; }
 
         //Constructors
         public Vacation()
@@ -33,25 +34,20 @@ namespace EyeBeach
             return base.EyeToNumber();
         }
 
-        public static void Beaches(int eyeNumber)
+        public virtual string Beaches(int eyeNumber)
         {
          switch (eyeNumber)
             {
                 case 1:
-                    Console.WriteLine("Waikiki");
-                    break;
+                    return Beach = "Waikiki";
                 case 2:
-                    Console.WriteLine("Venice Beach");
-                    break;
+                    return Beach = "Venice Beach";
                 case 3:
-                    Console.WriteLine("Rehobeth");
-                    break;
+                    return Beach = "Rehobeth";
                 case 4:
-                    Console.WriteLine("Redondo Beach");
-                    break;
+                    return Beach = "Redondo Beach";
                 default:
-                    Console.WriteLine("Edgewater");
-                    break;
+                    return Beach = "Edgewater";
             }
         }
 

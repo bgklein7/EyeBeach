@@ -12,7 +12,8 @@ namespace EyeBeach
         //invisible
 
         //Properties
-        //inherited only
+        public string HotelName { get; set; }
+        public double ShoeSize { get; set; }
 
         //Constructors
         public Hotel()
@@ -26,19 +27,44 @@ namespace EyeBeach
         }
 
         //Methods
-        public void Hotels()
+        public override string Beaches(int eyeNumber)
         {
-            if(ShoeSize == 6.5)
+            string beach = base.Beaches(eyeNumber);
+            if(beach == "Waikiki" && ShoeSize == 6.5)
             {
-                Console.WriteLine("Hojo");
+                return HotelName = "HoJo";
             }
-            if(ShoeSize == 10.5)
+            if(beach == "Waikiki" && ShoeSize == 10.5)
             {
-                Console.WriteLine("Waldorf Astoria");
+                return HotelName = "Waldorf Astoria";
+            }
+            if(beach == "Venice Beach" && ShoeSize == 6.5)
+            {
+                return HotelName = "Bates Motel";
+            }
+            if(beach == "Venice Beach" && ShoeSize == 10.5)
+            {
+                return HotelName = "Breakers";
+            }
+            if(beach == "Rehobeth" && ShoeSize == 6.5)
+            {
+                return HotelName = "Hilton";
+            }
+            if(beach == "Rehobeth" && ShoeSize == 10.5)
+            {
+                return HotelName = "Holiday Inn";
+            }
+            if(beach == "Redondo Beach" && ShoeSize == 6.5)
+            {
+                return HotelName = "Sheraton";
+            }
+            if(beach == "Redondo Beach" && ShoeSize == 10.5)
+            {
+                return HotelName = "Westin";
             }
             else
             {
-                Console.WriteLine("No-tell Motel");
+                return HotelName = "No-tell Motel";
             }
         }
     }
